@@ -1,0 +1,61 @@
+.img-comida{
+  border-radius: 6%;
+}
+
+.iconos_laterales-container {
+  position: fixed;
+  right: -122px;
+  top: 45%;
+  width: 200px;
+}
+.iconos_laterales li {
+  list-style: none;
+  background-color:#808080;
+  color:#282828;
+  height: 36px;
+  margin: 0px 0px 3px 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+
+}
+.iconos_laterales li:hover {
+  margin-left: -50px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.iconos_laterales li img {
+
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  padding: 2px;
+}
+.iconos_laterales li p {
+  text-transform: uppercase;
+  line-height: 56px;
+}
+
+.color-p{
+  color: white;
+}
+
+.container_marketing{
+  margin-left:10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.img-logo{
+  width: 360px;
+  height: 360px;
+}
+.img-ini{
+  margin-left: 80%;
+  margin-top: -5%;
+  margin-bottom: -50px;
+}
